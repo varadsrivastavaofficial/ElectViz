@@ -43,6 +43,8 @@ Key Insights:
 -Integration of real-time datasets
 -Implementation of predictive models for forecasting outcomes
 
+Note:
+Codes for Measures and Calculations are provided.
 
 Contributions:
 Contributions are welcome. Please fork the repository and submit a pull request for any improvements.
