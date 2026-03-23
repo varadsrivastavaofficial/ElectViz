@@ -1,2 +1,4 @@
+//in file it may be used as "Seats Won new2", then create a new query
+
 Seats Won = 
 COUNT(constituencywise_results[Constituency ID])
