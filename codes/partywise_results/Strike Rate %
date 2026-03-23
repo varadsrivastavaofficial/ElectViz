@@ -1,0 +1,2 @@
+Strike Rate % = 
+DIVIDE([Seats Won], [Total Seats new]) * 100
