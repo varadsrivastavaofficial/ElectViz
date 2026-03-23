@@ -1,0 +1,10 @@
+Party Vote Share % = 
+DIVIDE(
+    CALCULATE(
+        SUM(constituencywise_details[Total Votes])
+    ),
+    CALCULATE(
+        SUM(constituencywise_details[Total Votes]),
+        ALL(constituencywise_details)
+    )
+) * 100
