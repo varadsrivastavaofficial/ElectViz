@@ -1,0 +1,7 @@
+Party Rank = 
+RANKX(
+    ALL(partywise_results[Party]),
+    [Seats Won],
+    ,
+    DESC
+)
