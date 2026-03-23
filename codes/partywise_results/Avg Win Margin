@@ -1,0 +1,4 @@
+Avg Win Margin = 
+CALCULATE(
+    AVERAGE(constituencywise_results[Margin])
+)
