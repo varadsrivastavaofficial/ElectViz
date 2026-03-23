@@ -1,0 +1,7 @@
+//This is different from "Total seats as it uses total seats for constituency"
+
+Total Seats new = 
+CALCULATE(
+    DISTINCTCOUNT(constituencywise_results[Constituency ID]),
+    ALL(constituencywise_results)
+)
