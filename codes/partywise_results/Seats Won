@@ -1,0 +1,2 @@
+Seats Won = 
+COUNT(constituencywise_results[Constituency ID])
