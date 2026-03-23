@@ -1,0 +1,42 @@
+Party Alliance = 
+IF(
+    partywise_results[Party] = "Bharatiya Janata Party" ||
+    partywise_results[Party] = "Telugu Desam" ||
+    partywise_results[Party] = "Janata Dal  (United)" ||
+    partywise_results[Party] = "Shiv Sena" ||
+    partywise_results[Party] = "AJSU Party" ||
+    partywise_results[Party] = "Apna Dal (Soneylal)" ||
+    partywise_results[Party] = "Asom Gana Parishad" ||
+    partywise_results[Party] = "Hindustani Awam Morcha (Secular)" ||
+    partywise_results[Party] = "Janasena Party" ||
+    partywise_results[Party] = "Janata Dal  (Secular)" ||
+    partywise_results[Party] = "Lok Janshakti Party(Ram Vilas)" ||
+    partywise_results[Party] = "Nationalist Congress Party" ||
+    partywise_results[Party] = "Rashtriya Lok Dal" ||
+    partywise_results[Party] = "Sikkim Krantikari Morcha",
+    "NDA",
+    IF(
+        partywise_results[Party] = "Indian National Congress" ||
+        partywise_results[Party] = "Aam Aadmi Party" ||
+        partywise_results[Party] = "All India Trinamool Congress" ||
+        partywise_results[Party] = "Bharat Adivasi Party" ||
+        partywise_results[Party] = "Communist Party of India  (Marxist)" ||
+        partywise_results[Party] = "Communist Party of India  (Marxist-Leninist)  (Liberation)" ||
+        partywise_results[Party] = "Communist Party of India" ||
+        partywise_results[Party] = "Dravida Munnetra Kazhagam" ||
+        partywise_results[Party] = "Indian Union Muslim League" ||
+        partywise_results[Party] = "Jammu & Kashmir National Conference" ||
+        partywise_results[Party] = "Jharkhand Mukti Morcha" ||
+        partywise_results[Party] = "Kerala Congress" ||
+        partywise_results[Party] = "Marumalarchi Dravida Munnetra Kazhagam" ||
+        partywise_results[Party] = "Nationalist Congress Party Sharadchandra Pawar" ||
+        partywise_results[Party] = "Rashtriya Janata Dal" ||
+        partywise_results[Party] = "Rashtriya Loktantrik Party" ||
+        partywise_results[Party] = "Revolutionary Socialist Party" ||
+        partywise_results[Party] = "Samajwadi Party" ||
+        partywise_results[Party] = "Shiv Sena (Uddhav Balasaheb Thackrey)" ||
+        partywise_results[Party] = "Viduthalai Chiruthaigal Katchi",
+        "I.N.D.I.A.",
+        "OTHER"
+    )
+)
