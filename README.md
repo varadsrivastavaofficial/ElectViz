@@ -1,6 +1,6 @@
 Election Analytics Dashboard (Power BI)
 
-This project presents a comprehensive Election Analytics Dashboard developed using Power BI, designed to provide meaningful insights into electoral outcomes. It enables users to analyze party performance, alliance structures, and voting patterns through structured and interactive visualizations.
+This project presents a comprehensive 2024 Indian Election Analytics Dashboard developed using Power BI, designed to provide meaningful insights into electoral outcomes. It enables users to analyze party performance, alliance structures, and voting patterns through structured and interactive visualizations.
 The dashboard supports data-driven analysis and enhances understanding of election data.
 
 
